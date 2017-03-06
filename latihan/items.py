@@ -1,0 +1,20 @@
+import scrapy
+
+class Twittercrawler(scrapy.Item):
+    index = scrapy.Field()
+    url = scrapy.Field()
+    userid = scrapy.Field()
+    username = scrapy.Field()
+    fullname = scrapy.Field()
+    text_tweet = scrapy.Field()
+    original_tweet = scrapy.Field()
+    max_position = scrapy.Field()
+    hash_tags = scrapy.Field()
+    time_tweet = scrapy.Field()
+    id_status = scrapy.Field()
+    lang = scrapy.Field()
+    retweets = scrapy.Field()
+    favorite = scrapy.Field()
+    place_id = scrapy.Field()
+    place = scrapy.Field()
+    data_id = scrapy.Field()
